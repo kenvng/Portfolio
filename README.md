@@ -29,7 +29,7 @@ Landed an interview with CDS and was requested to write a small code Palindrome 
 
 <h2>2016</h2>
 Persuing my dream of Web Developing... attending General Assembly.  At General Assembly I learned to build interactive web page/site/landing page with up to date tools. HTML5, CSS3, JavaScript, GitHun, Bootstrap, and more...
-You can check out some of my works below while I was there:
+You can check out some of my works/projects below while I was there:
 <ul>
   <li><a href="http://kenvng.github.io/TicTacToe">TicTacToe</a></li>
   <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_01">Resume</a></li>
@@ -45,5 +45,5 @@ You can check out some of my works below while I was there:
   <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_11">Trafic Light</a></li>
   <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_12">Talk and Form</a></li>
   <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_13">To Do List</a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/final_assignment"></a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/final_assignment">Final Assignment, Build Your Own Site</a></li>
  </ul>
