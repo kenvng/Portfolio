@@ -7,3 +7,7 @@ My name is Ken (Vuken) Nguyen.  I'm available for hire as a Freelance Web Develo
   <li><a href="http://vukendiesel.com">Personal Website</a></li>
   <li><a href="https://github.com/kenvng?tab=repositories">GitHub</a></li>
 </ul>
+
+<br/>
+
+<h1>2018</h1>
