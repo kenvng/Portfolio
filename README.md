@@ -16,7 +16,7 @@ Check out my new playground: canvas.  Using HTML5 Canvas and JavaScript, you can
   <li><a href="https://github.com/kenvng/Portfolio/blob/master/2018/Canvas%20Deep%20Dive/barchart.html">barchart.html</a></li>
   <li><a href="https://github.com/kenvng/Portfolio/blob/master/2018/Canvas%20Deep%20Dive/frenchflag.html">frenchflag.html</a></li>
   <li><a href="https://github.com/kenvng/Portfolio/blob/master/2018/Canvas%20Deep%20Dive/barchart.html">usflag.html</a></li>
-  <li><a href=""></a>Coming soon...</li>
+  <li><a href=""></a>More, coming soon...</li>
 </ul>
   
   
@@ -29,19 +29,21 @@ Landed an interview with CDS and was requested to write a small code Palindrome 
 
 <h2>2016</h2>
 Persuing my dream of Web Developing... attending General Assembly.  At General Assembly I learned to build interactive web page/site/landing page with up to date tools. HTML5, CSS3, JavaScript, GitHun, Bootstrap, and more...
-You can check out some of my works while there:
+You can check out some of my works below while I was there:
 <ul>
   <li><a href="http://kenvng.github.io/TicTacToe">TicTacToe</a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_01"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_02"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_03"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_04"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_05"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_06"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_07"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_08"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_09"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_10"></a></li>
-  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_11"></a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_01">Resume</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_02">Portfolio</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_03">Relaxr Landing Page</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_04">Box Model Layout and Floating Section</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_05">Home Page, Startup Match Maker</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_06">Relaxr Blog</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_07">Stop Light with JavaScript & JQuery</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_08">CitiPix</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_09">Mobile Boxes</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_10">Color Scheme Switcher</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_11">Trafic Light</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_12">Talk and Form</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/homework_13">To Do List</a></li>
   <li><a href="https://github.com/kenvng/Portfolio/tree/master/2016/FEWD-BOS-GA/final_assignment"></a></li>
  </ul>
