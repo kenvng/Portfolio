@@ -11,5 +11,16 @@ My name is Ken (Vuken) Nguyen.  I'm available for hire as a Freelance Web Develo
 <br/>
 
 <h2>2018</h2>
+Check out my new playground: canvas.  Using HTML5 Canvas and JavaScript, you can create amazing graphics, animations, games, & so on...
+<ul>
+  <li><a href="https://github.com/kenvng/Portfolio/blob/master/2018/Canvas%20Deep%20Dive/barchart.html">barchart.html</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/blob/master/2018/Canvas%20Deep%20Dive/frenchflag.html">frenchflag.html</a></li>
+  <li><a href="https://github.com/kenvng/Portfolio/blob/master/2018/Canvas%20Deep%20Dive/barchart.html">usflag.html</a></li>
+  <li><a href=""></a>Coming soon...</li>
+  
+  
+  
 <h2>2017</h2>
+
+
 <h2>2016</h2>
