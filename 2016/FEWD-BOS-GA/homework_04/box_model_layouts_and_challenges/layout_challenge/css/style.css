@@ -1,0 +1,495 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic);
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Open Sans';
+	color: #000000;
+	line-height: 1.5;
+	font-size: 14px;
+	width: 964px;
+	margin: 10px auto;
+	padding: 10px 0px;
+}
+
+a {
+  font-weight: 800;
+  color: #05080C;
+}
+
+h1 {
+	text-align: center;
+	background-color:black;
+    color:white;
+    padding:20px;
+}
+
+header nav {
+	text-align: center;
+	padding: 10px 0;
+}
+
+section.top {
+	text-align: center;
+}
+
+
+
+/* TWO COLUMN */
+.Two-Column {
+	text-align: left;
+	font-weight: 600;
+}
+
+h2 {
+	text-align: left;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+.Two-Column header {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	height: 100px;
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+
+.Two-Column section {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 550px;
+	height: 400px;
+	float: left;
+	padding: 10px;
+	margin: 10px 10px 20px 0;
+}
+
+.Two-Column aside {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 340px;
+	height: 400px;
+	float: right;
+	padding: 10px;
+	margin: 10px 0 20px 10px;
+}
+
+.Two-Column footer {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	height: 100px;
+	clear: both;
+	padding: 10px;
+	margin: 0 0 50px 0;
+}
+
+
+
+/* THREE COLUMN */
+.Three-Column {
+	text-align: left;
+	font-weight: 600;
+}
+
+.Three-Column header {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	height: 100px;
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+
+.Three-Column .aside-a {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 150px;
+	height: 400px;
+	float: left;
+	padding: 10px;
+	margin: 10px 10px 20px 0;
+}
+
+.Three-Column section {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 550px;
+	height: 400px;
+	float: left;
+	padding: 10px;
+	margin: 10px 10px 20px 10px;
+}
+
+.Three-Column .aside-b{
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 150px;
+	height: 400px;
+	float: right;
+	padding: 10px;
+	margin: 10px 0 20px 10px;
+}
+
+.Three-Column footer {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	height: 100px;
+	clear: both;
+	padding: 10px;
+	margin: 0 0 50px 0;
+}
+
+
+
+
+/* SIMPLE MARKETING */
+.Simple-Marketing {
+	text-align: left;
+	font-weight: 600;
+}
+
+.Simple-Marketing header {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	height: 100px;
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+
+.Simple-Marketing .section-a {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 446px;
+	height: 400px;
+	float: left;
+	padding: 10px;
+	margin: 10px 10px 20px 0;
+}
+
+.Simple-Marketing .section-b {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 446px;
+	height: 400px;
+	float: right;
+	padding: 10px;
+	margin: 10px 0 20px 10px;
+}
+
+.Simple-Marketing .section-c {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 284px;
+	height: 150px;
+	clear: both;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 0;
+}
+
+.Simple-Marketing .section-d {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 284px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 10px 10px;
+}
+
+.Simple-Marketing .section-e {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 284px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 0 0 10px 10px;
+}
+
+.Simple-Marketing footer {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	height: 100px;
+	clear: both;
+	padding: 10px;
+	margin: 10px 0 50px 0;
+}
+
+
+
+
+/* MARKETING WITH NAV */
+.Marketing-with-Nav {
+	text-align: left;
+	font-weight: 600;
+}
+
+.Marketing-with-Nav header {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 200px;
+	height: 100px;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 0;
+}
+
+.Marketing-with-Nav .nav-a {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 100px;
+	height: 30px;
+	float: left;
+	padding: 10px;
+	margin: 30px 10px 30px 174px;
+}
+
+.Marketing-with-Nav .nav-b {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 100px;
+	height: 30px;
+	float: left;
+	padding: 10px;
+	margin: 30px 10px 30px 10px;
+}
+
+.Marketing-with-Nav .nav-c {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 100px;
+	height: 30px;
+	float: left;
+	padding: 10px;
+	margin: 30px 10px 30px 10px;
+}
+
+.Marketing-with-Nav .nav-d {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 100px;
+	height: 30px;
+	float: left;
+	padding: 10px;
+	margin: 30px 0 30px 10px;
+}
+
+.Marketing-with-Nav .section-main {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	height: 150px;
+	clear: both;
+	padding: 10px;
+	margin: 10px 0 20px 0;
+}
+
+.Marketing-with-Nav .section-a {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 284px;
+	height: 150px;
+	clear: both;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 0;
+}
+
+.Marketing-with-Nav .section-b {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 284px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 10px;
+}
+
+.Marketing-with-Nav .section-c {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 284px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 0 0 20px 10px;
+}
+
+.Marketing-with-Nav footer {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	height: 100px;
+	clear: both;
+	padding: 10px;
+	margin: 10px 0 50px 0;
+}
+
+
+
+/* MAGAZINE */
+.Magazine {
+	text-align: left;
+	font-weight: 600;
+}
+
+.Magazine header {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 200px;
+	height: 100px;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 0;
+}
+
+.Magazine .nav-a {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 80px;
+	height: 20px;
+	float: left;
+	padding: 10px;
+	margin: 40px 10px 30px 130px;
+}
+
+.Magazine .nav-b {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 80px;
+	height: 20px;
+	float: left;
+	padding: 10px;
+	margin: 40px 10px 30px 10px;
+}
+
+.Magazine .nav-c {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 80px;
+	height: 20px;
+	float: left;
+	padding: 10px;
+	margin: 40px 10px 30px 10px;
+}
+
+.Magazine .nav-d {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 80px;
+	height: 20px;
+	float: left;
+	padding: 10px;
+	margin: 40px 10px 30px 10px;
+}
+
+.Magazine .nav-e {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 80px;
+	height: 20px;
+	float: left;
+	padding: 10px;
+	margin: 40px 0 30px 10px;
+}
+
+.Magazine .aside-left {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 164px;
+	height: 588px;
+	clear: both;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 0;
+}
+
+.Magazine .section-1 {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 732px;
+	height: 100px;
+	float: left;
+	padding: 10px;
+	margin: 0 0 20px 10px;
+}
+
+.Magazine .section-2 {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 538px;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 10px;
+}
+
+.Magazine .section-3 {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 150px;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin: 0 0 20px 10px;
+}
+
+.Magazine .section-a {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 10px;
+}
+
+.Magazine .section-b {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 10px;
+}
+
+.Magazine .section-c {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 0 10px 20px 10px;
+}
+
+.Magazine .section-d {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin: 0 0 20px 10px;
+}
+
+.Magazine footer {
+	background-color: lightgrey;
+	border: 2px solid grey;
+	height: 100px;
+	clear: both;
+	padding: 10px;
+	margin: 10px 0 50px 0;
+}
+
+.copyright {
+	background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
