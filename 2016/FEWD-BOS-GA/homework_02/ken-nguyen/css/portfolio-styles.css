@@ -1,0 +1,70 @@
+
+
+body {
+	background-color: white;
+	color: black;
+	margin: 0 auto;				/* horizontally center an element within its container */            			
+    max-width: 900px;
+    height: 100%;
+    line-height: 1.5;
+}
+
+div.outer {
+	background-color: #ececec;		/* light grey */
+	padding: 20px 20px 40px 20px;
+}
+
+div.inner {
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	padding: 40px 40px 40px 40px;
+}
+
+.header-nav {
+	text-align: center;
+}
+
+.header-h1 {
+	text-align: center;
+}
+
+/* HEADING 1 ANIMATION */
+h1 {
+    position:relative;
+    -webkit-animation:h1Animation 5s;
+    overflow: hidden; /* this is important for animation so it wont expanding the page */
+}
+@-webkit-keyframes h1Animation{					/*Animation for our 2nd header,growing header*/
+    0%   {-webkit-transform: scale(0.5,1);}		/*Start of the page,scale the header 0.5 times its width and 1 times its height*/
+    25%   {-webkit-transform: scale(1,1.5);}
+    50%  {-webkit-transform: scale(1.5,2);}
+    75%  {-webkit-transform: scale(2,2.5);}
+    100%  { -webkit-transform: scale(0,0);}		/*Go back to its original size*/
+}
+
+section {
+	text-align: left;
+	margin: 0;
+}
+
+
+.split-left  {
+    display: block;
+}
+.split-right {
+    display: block; 
+    float: right;
+    width: auto;
+}
+
+footer {
+	text-align: center;
+}
+
+img {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #222222;
+    padding: 5px;
+    text-align: center
+}
