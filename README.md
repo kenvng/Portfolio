@@ -17,7 +17,7 @@ Check out my new playground: canvas.  Using HTML5 Canvas and JavaScript, you can
   <li><a href="https://github.com/kenvng/Portfolio/blob/master/2018/Canvas%20Deep%20Dive/frenchflag.html">frenchflag.html</a></li>
   <li><a href="https://github.com/kenvng/Portfolio/blob/master/2018/Canvas%20Deep%20Dive/barchart.html">usflag.html</a></li>
   <li><a href=""></a>Coming soon...</li>
-  
+</ul>
   
   
 <h2>2017</h2>
