@@ -21,6 +21,10 @@ Check out my new playground: canvas.  Using HTML5 Canvas and JavaScript, you can
   
   
 <h2>2017</h2>
+Landed an interview with CDS and was requested to write a small code Palindrome prior to hiring for temp position with the company:
+<ul>
+  <li><a href="https://github.com/kenvng/Palindrome">Palindrome</a></li>
+<ul>
 
 
 <h2>2016</h2>
