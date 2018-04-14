@@ -5,4 +5,5 @@ My name is Ken (Vuken) Nguyen.  I'm available for hire as a Freelance Web Develo
   <li><a href="https://www.linkedin.com/in/ken-nguyen-2029078b">LinkedIn</a></li>
   <li><a href="http://www.freecodecamp.com/kenvng">FreeCodeCamp</a></li>
   <li><a href="http://vukendiesel.com">Personal Website</a></li>
+  <li><a href="https://github.com/kenvng?tab=repositories">GitHub</a></li>
 </ul>
