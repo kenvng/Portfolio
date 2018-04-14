@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+<!-- 
+// The canvas element is the actual on-screen rectangle where the content will be drawn. The width and height determine how big it will be. The Canvas // element is a block level DOM element similar to a DIV so you can style it or position it just like anything else in your page.
+-->
+<canvas width="500" height="500" id="canvas" style="border:1px solid #00AAFF;"></canvas> 
+<script> 
+// The data variable in the script tag is a set of data points that we will draw in the bar chart.
+var data = [ 16, 68, 20, 30, 54 ];  // data array
+
+// *********************************************************** //
+// lets get a reference to the canvas and fill the background with gray.
+
+//get a reference to the canvas 
+var canvas = document.getElementById('canvas'); 
+ 
+//get a reference to the drawing context 
+var c = canvas.getContext('2d'); 
+ 
+//draw background
+// c.fillStyle = "gray"; 
+// c.fillRect(0,0,500,500); 
+
+//draw background 
+c.fillStyle = "white";		// color bg white, instead of gray
+c.fillRect(0,0,500,500); 
+
+// ******** // 
+// ADD DATA //
+// Now you can draw some data. Do this by looping over the data array above. For each data point fill in a rectangle with the x determined by the array index and the height determined by the data value.
+
+// draw data 
+// c.fillStyle = "blue"; 
+// for(var i=0; i<data.length; i++) { 
+//     var dp = data[i]; 
+//     c.fillRect(25 + i*100, 30, 50, dp*5);  //bars pointing downward
+// } 
+ 
+// The first problem is that the bars are coming down from the top instead of the bottom. Remember that the y axis is 0 at the top and increases as you go down. To make the bars come up from the bottom change the y value to be calculated as the height of the canvas (500) minus the height of the bar (dp*5) and then subtract off an extra 30 to make it fit.
+ 
+//draw data 
+// c.fillStyle = "blue"; 
+// for(var i=0; i<data.length; i++) { 
+//     var dp = data[i]; 
+//     c.fillRect(25 + i*100, 500-dp*5 - 30 , 50, dp*5);  //bars pointing upward
+// }
+
+// adjust the position of the bars slightly so they actually start at 0,0
+//draw data 
+c.fillStyle = "blue"; 
+for(var i=0; i<data.length; i++) { 
+    var dp = data[i]; 
+    c.fillRect(35 + i*100, 460-dp*5 , 50, dp*5); 
+} 
+// 35px from left side,
+// for i = 0, position starting out of each column, column = 50px; i < the data length = true then add 1 to i
+// 100 is the width of column * 2, i * 100 = column and space of culumn to separate the columns
+// 
+
+
+// ****************** //
+// Axis Lines and Labels
+
+// Now add some axis lines by stroking a path starting at the top, down the left side, and across the bottom.
+//draw axis lines 
+c.fillStyle = "black"; 
+c.lineWidth = 1.0; 
+c.beginPath(); 
+c.moveTo(30,10);		// x/y upper left
+c.lineTo(30,460);		// x/y lower left
+c.lineTo(490,460); 		// x/y lower right
+c.stroke(); 
+
+// Now add the value label and tickmark down the left side.
+//draw text and vertical lines 
+c.fillStyle = "black"; 
+for(var i=0; i<6; i++) { 
+    c.fillText((5-i)*20 + "",4, i*80+60); 
+    c.beginPath(); 
+    c.moveTo(25,i*80+60); 
+    c.lineTo(30,i*80+60); 
+    c.stroke(); 
+}
+
+// And finally add labels across the bottom for the first five months of the year
+var labels = ["JAN","FEB","MAR","APR","MAY"]; 
+//draw horizontal text 
+for(var i=0; i<5; i++) { 
+    c.fillText(labels[i], 50+ i*100, 475); 
+}
+
+
+ 
+ 
+</script> 
+</body> 
+</html> 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<title>French Flag</title>
+<body>
+
+<canvas id="myCanvas" width="200" height="130"
+style="border:1px solid #c3c3c3;">
+Your browser does not support the canvas element.
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#0000FF"; 	//blue
+ctx.fillRect(0,0,66.33,130);	
+ctx.fillStyle = "#FFFFFF"; 	//white
+ctx.fillRect(66.34,0,132.66,130);
+ctx.fillStyle = "#FF0000"; 	//red
+ctx.fillRect(100,0,200,130);
+
+</script>
+
+</body>
+</html>
