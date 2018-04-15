@@ -1,0 +1,17 @@
+/* Palindrome */
+
+/* Optional CSS reset */
+blockquote,body,button,code,div,footer,h1,h2,h3,h4,h5,h6,html,i,img,li,.nowrap,ol,p,pre,.row,ul {
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+	word-wrap: break-word;
+	}
+/* ***** */
+
+/* Main CSS */
+div {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+/* ***** */

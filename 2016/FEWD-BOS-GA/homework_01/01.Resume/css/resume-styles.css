@@ -1,0 +1,199 @@
+body {
+	background-color: white;
+	text-color: black;
+	margin: auto;				/* horizontally center an element within its container */
+	height:100vh;
+  	width: 900px;
+    line-height: 1.5;
+}
+
+div.outer {
+	background-color: #ececec;		/* light grey */
+	padding: 20px 20px 40px 20px;
+}
+
+div.inner {
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	padding: 40px 40px 40px 40px;
+}
+
+header {
+
+}
+
+.header-nav {
+	text-align: center;
+}
+
+.header-h1 {
+	text-align: center;
+}
+
+.header-p {
+	text-align: center;
+	
+}
+
+section {
+	text-align: left;
+}
+
+.section-1 {
+	text-align: left;
+}
+
+.section-1-h2 {
+	text-align: left;
+}
+
+.section-1-h3 {
+	text-align: left;
+}
+
+.section-1-p {
+	text-align: left;
+}
+
+.split-left  {
+	display: block;
+	margin: 0;
+}
+.split-right {
+	display: block; 
+	float: right;
+	width: auto;
+	margin-left: 0;
+}
+
+footer {
+	text-align: center;
+}
+
+
+.footer.nav {
+	text-align: center;
+}
+
+.footer-p {
+	text-align: center;
+}
+
+/*If you detect the end user's screen is smaller than 480 pixels you have to show the smartphone layout*/
+/*If the screen is larger than 480 pixels but smaller than 1024 pixels, show us the tablet layout*/
+/*If the screen is larger than 1024 show the regular desktop layout*/
+/*responsive from 575px to 899px*/
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+
+    #wrapper {
+        width: 100%;
+    }
+    
+    #mark {
+        margin: 0 auto;
+        margin-top: 140px;
+        display: block;
+    }
+
+    #details {
+        text-align: center;
+        margin: 0 auto;
+        left:0;
+        top:0;
+        margin-top: 20px;
+    }
+
+    #caption {
+        text-align: center;
+        margin: 0 auto;
+        bottom: auto;
+        right: auto;
+        position: relative;
+        width:500px;
+        margin-top: 50px;
+    }
+
+    #caption h2, #caption h3 {
+        display:inline-block;
+        margin: 0 auto;
+        position:relative;
+        float:none;
+    }
+
+    #caption h3 {
+        margin-top: 2px;
+    }
+
+    .tile, .thumb {
+        height: 450px;
+    }
+
+    .overlay {
+        height: 450px;
+        margin-top:-450px;
+
+    }
+
+    .subthumb:hover {
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    animation-name: none !important;
+    }
+
+    #preview {
+        display: none;
+    }
+
+    .overlay > div {
+        height: 450px;
+    }
+
+}
+
+
+/*responsive from 0 to 574px*/
+/*responsive from 0 to 574px*/
+/*responsive from 0 to 574px*/
+@media screen and (max-width: 480px) {
+    
+    #intro {
+        background-position: 60% 50%;
+    }
+
+    #wrapper {
+        width: 100%;
+    }
+    
+    #mark {
+        margin: 0 auto;
+        margin-top: 140px;
+        display: block;
+    }
+
+    #details {
+        text-align: center;
+        margin: 0 auto;
+        left:0;
+        top:0;
+        margin-top: 20px;
+    }
+
+    #caption, #preview {
+        display: none;
+    }
+
+    #leftNav {
+        display: none;
+    }
+
+    .thumb {
+        height: 350px;
+    }
+
+    .subthumb:hover {
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        animation-name: none !important;
+    }
+
+}

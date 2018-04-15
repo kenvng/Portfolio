@@ -1,0 +1,110 @@
+body {
+  background-color: white;
+	text-color: black;
+	margin: auto;				/* horizontally center an element within its container */
+  min-width: auto;		/* width of the page compare to the browser */
+  min-height: auto;
+  max-width: 800px;
+  max-height: auto;
+}
+
+div.outer {
+	background-color: #ececec;		/* light grey */
+	padding: 20px 20px 40px 20px;
+}
+
+div.inner {
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	padding: 40px 40px 40px 40px;
+}
+
+header {
+
+}
+
+.header-nav {
+	text-align: center;
+}
+.header-h1 {
+	text-align: center;
+}
+
+.section-1 {
+	overflow: hidden;		/* this is important for animation so it wont expanding the page */
+	width: auto;
+  height: auto;
+  margin: 0px;
+  line-height: 1.5;
+  /* border: 3px solid #73AD21; */ /* for testing purpose */
+}
+
+.section-1 span {
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.section-1-h3 {
+	text-align: left;
+}
+
+.section-1-p {
+	text-align: left;
+}
+
+img {
+	float: right;
+  margin: 30px 20px 20px 20px;
+  border-radius: 25px 25px 25px 25px;		/* creating a round corner with the radius of 25px: top, right, bottom, left;
+  /* border: 1px solid red; */ /* for testing purpose */
+}
+
+/* IMGAGE ANIMATION */
+img {
+  width: 150px;
+  height: 150px;
+  /* border: 1px solid black; */
+  position: relative;
+  -webkit-animation: imgAnimation 5s;
+  /* animation-direction: reverse; */
+}
+/* The name of the animation! See, it looks just like a style */
+@-webkit-keyframes imgAnimation	{       
+  0% {-webkit-transform:rotate(369deg);left:0px; top:0px;}
+}
+/* The percentage tells us what it will do on that percentage of the time specified on the animation.  
+So as you can see at the start of the page, the item will rotate! Without flash! */
+
+
+/* SLIDE IN ANIMATION - not working YET */
+/*
+div.slidein {
+	object-position: relative;
+	animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+	from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+ 	to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+*/
+
+footer {
+	text-align: center;
+}
+
+.footer.nav {
+	text-align: center;
+}
+
+.footer-p {
+	text-align: center;
+}

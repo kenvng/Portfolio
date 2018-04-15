@@ -1,0 +1,233 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic);
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	padding: 0px;
+	margin: 0px;
+  }
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  cursor: default;
+	width: 800px;
+	margin: auto;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* General format for buttons */
+#button {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+
+}
+
+#page-header {
+	background: black;
+	color: white;
+	overflow: hidden;
+	padding: 0;
+	border-bottom: 4px solid #f8ff00;
+}
+
+#page-header nav {
+	float: right;
+	padding: 15px 10px 20px 10px;
+}
+
+#page-header h1 {
+    color: #f8ff00;			/* YELLOW */
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    padding: 15px 20px 0 20px;
+}
+
+#page-header nav strong {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+
+}
+
+#page-header nav.normal {
+	
+}
+
+ul{
+  	list-style-type: none;
+}
+
+li{
+  	float: left;
+  	font-size: 16px;
+  	padding: 0 10px;
+}
+
+/* unvisited link */
+li a:link {
+    color: white;
+}
+
+/* visited link */
+li a:visited {
+    color: white;
+}
+
+/* mouse over link */
+li a:hover {
+    color: white;
+}
+
+/* selected link */
+li a:active {
+    color: white;
+}
+
+li a:link {
+    text-decoration: none;
+}
+
+#tagline {
+	font-family: 'Merriweather', serif;
+	background: #c6c6c6;	/* GREY */
+	text-align: center;
+	font-size: 1.25em;
+    line-height: 1em;
+	font-weight: ;
+	font-style: italic;
+	padding: 20px;
+}
+
+p .taste {
+	color: #9b9b9b;			/* DARK GREY */
+	text-decoration: line-through;
+}
+
+p .are {
+	padding-bottom: 1px;
+	border-bottom: 3px solid #f8ff00;
+}
+
+#main-section {
+  width: 100%;
+  height: 500px;
+}
+
+.container {
+	width: 100%;
+	height: 50vh;
+	background-image: url(../images/coworking.jpg);
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#floater {
+	width: 260px;
+	position: relative;
+  top: 30px ;
+	left: 510px;
+	background-color: rgba(255,255,255,0.6);
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.6); 
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.6); 
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.6); 
+  -o-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+/* Create a Profile BUTTON - Individual format */
+.create-a-profile {
+  background: #fdf731;						/* YELLOW */
+  background-image: -webkit-linear-gradient(top, #fdf731, #c7c224); 
+  background-image: -moz-linear-gradient(top, #fdf731, #c7c224);
+  background-image: -ms-linear-gradient(top, #fdf731, #c7c224);
+  background-image: -o-linear-gradient(top, #fdf731, #c7c224);
+  background-image: linear-gradient(to bottom, #fdf731, #c7c224);	/* GRADIENT from YELLOW to DARKER YELLOW */
+  -webkit-box-shadow: 0px 3px 0px #99911c;	
+  -moz-box-shadow: 0px 3px 0px #99911c;
+  box-shadow: 0px 3px 0px #99911c;			/* YELLOW GREYISH YELLOW */
+}
+.create-a-profile:hover {
+  background: #fdf731;							/* YELLOW */
+  text-decoration: none;
+}
+
+#profile, #developer, #designer {
+	margin: 20px, 0;
+}
+
+#profile {
+	float: left;
+	width: 33.3%;
+	padding: 25px;
+	border-right: 1px solid #c6c6c6;
+}
+
+#developer {
+	float: left;
+	width: 33.3%;
+	padding: 25px;
+	border-right: 1px solid #c6c6c6;
+}
+
+#designer {
+	float: left;
+	width: 33.3%;
+	padding: 25px;
+}
+
+.profile, .developer, .designer {
+  	background: #fdf731;						/* YELLOW */
+  	background-image: -webkit-linear-gradient(top, #c6c6c6, #b0b0b0); 
+  	background-image: -moz-linear-gradient(top, #c6c6c6, #b0b0b0);
+  	background-image: -ms-linear-gradient(top, #c6c6c6, #b0b0b0);
+  	background-image: -o-linear-gradient(top, #c6c6c6, #b0b0b0);
+  	background-image: linear-gradient(to bottom, #c6c6c6, #b0b0b0);	/* GRADIENT from YELLOW to DARKER YELLOW */
+  	-webkit-box-shadow: 0px 3px 0px #8a838a;	
+  	-moz-box-shadow: 0px 3px 0px #8a838a;
+  	box-shadow: 0px 3px 0px #8a838a;			/* YELLOW GREYISH YELLOW */
+}
+.profile:hover, .developer:hover, .designer:hover {
+  background: #c6c6c6;							/* YELLOW */
+  text-decoration: none;
+}
+
+footer {
+	clear:both;
+	background-color: black;
+	color: white;
+	padding: 20px;
+
+}

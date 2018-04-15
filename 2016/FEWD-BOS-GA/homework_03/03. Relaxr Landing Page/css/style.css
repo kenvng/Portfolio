@@ -1,0 +1,315 @@
+
+/* @import url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic); */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic);
+
+body {
+	background-color: white;
+	margin: auto;				/* horizontally center an element within its container */
+    min-width: auto;			/* width of the page compare to the browser */
+    min-height: auto;
+    max-width: 600px;
+    max-height: 100%;
+    border: 0; 
+    color: white;
+	font-style: ;
+	font-weight: ;
+	font-size: ;
+	font-family: 'Open Sans'; /* TESTING FONTS:  'Open Sans', sans-serif, comic sans */
+}
+
+
+/* MAIN CONTAINER, contents other three containers */
+#container {
+	background-color: #f0efef;		/* grey */
+	min-width: auto;				/* width of the page compare to the browser */
+    min-height: auto;
+    max-width: 600px;
+    max-height: 100%;
+    margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+
+
+/* TOP CONTAINER */
+/* TOP CONTAINER */
+/* TOP CONTAINER */
+#container-top {
+	background-image: url("../images/header_bg.jpg");
+	background-size: 600px 500px;
+    background-repeat: no-repeat;
+	background-color:  #033048;		/* dark blue */
+	min-width: auto;				/* width of the page compare to the browser */
+    min-height: auto;
+    max-width: 600px;
+    max-height: 100%;
+    margin: 0;
+	border: 0;
+	padding: 5px 50px 140px 50px;
+}
+
+h1 {
+	text-align: left;
+	color: ;
+	font-style: ;
+	font-weight: 800;				/* Extra-Bold 800 */
+	font-size: 24px;
+	font-family: ;
+	text-shadow: 5px 5px 5px #000000;
+}
+
+.container-top-div-1 {
+	text-align: center;
+	color: ;
+	font-style: ;
+	font-weight: 600;				/* Semi-Bold 600 */
+	font-size: 24px;
+	font-family: ;
+	padding: 10px 0 10px 0;
+	text-shadow: 5px 5px 5px #000000;
+}
+
+.container-top-div-2 {
+	text-align: center;
+	color: ;
+	font-style: ;
+	padding: 10px 0 10px 0;
+}
+
+/* BUTTON 'GET IT NOW' and 'SIGN UP NOW!' */
+#btn {
+	margin: auto;
+	align-content: center;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+}
+/* BUTTON 'GET IT NOW' */
+.btn-get-it-now {
+	background: #f2de2c;
+	background-image: -webkit-linear-gradient(top, #f2de2c, #b5a331);
+	background-image: -moz-linear-gradient(top, #f2de2c, #b5a331);
+	background-image: -ms-linear-gradient(top, #f2de2c, #b5a331);
+	background-image: -o-linear-gradient(top, #f2de2c, #b5a331);
+	background-image: linear-gradient(to bottom, #f2de2c, #b5a331);
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 5px;
+	-webkit-box-shadow: 5px 5px 5px #000000;		
+	-moz-box-shadow: 5px 5px 5px #000000;
+	box-shadow: 5px 5px 5px #000000;	/* x, y, blur(0-30), and color
+										/* SHADOW: shadow value> horizontal, vertical, distance, blur, and color in rgba */
+										/* rgba: red, green, blue, a in this case is opacity(0-1, white - black); */
+	font-family: ;
+	color: #033048;
+	font-weight: 800;				/* Extra-Bold 800 */
+	font-size: 14px;
+	padding: 5px 20px 5px 20px;
+	text-decoration: none;
+	width: 100px;
+	height: 20px;		
+}
+
+
+
+/* MIDDLE CONTAINER */
+/* MIDDLE CONTAINER */
+/* MIDDLE CONTAINER */
+#container-mid {
+	background-color: #f0efef;		/* light grey, background*/
+	min-width: auto;				/* width of the page compare to the browser */
+    min-height: auto;
+    max-width: 600px;
+    max-height: 100%;
+    margin: 0;
+	border: 0;
+	padding: 20px 300px 50px 50px;
+}
+
+h2 {
+	text-align: left;
+	color: #033048;					/* dark blue */
+	font-style: ;
+	font-weight: 600;				/* Semi-Bold 600 */
+	font-size: 20px;
+	font-family: ;
+}
+
+
+section p {
+	text-align: left;
+	color: #909090;					/* grey */
+	font-style: ;
+	font-weight: 300;				/* Light 300 */
+	font-size: 13px;
+	font-family: ;
+}
+
+ul > li {
+	text-align: left;
+	color: #909090;					/* grey */
+	font-style: ;
+	font-weight: 300;				/* Light 300 */
+	font-size: 13px;
+	font-family: ;
+}
+
+ul li:nth-child(even) {				/* using pseudo-class to change even child to bold */
+	font-weight: 700;				/* Bold 700 */
+}
+
+
+
+/* BOTTOM CONTAINER */
+/* BOTTOM CONTAINER */
+/* BOTTOM CONTAINER */
+#container-bottom {
+	background-color: ;
+	min-width: auto;				/* width of the page compare to the browser */
+    min-height: auto;
+    max-width: 600px;
+    max-height: 100%;
+    margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+/* BOTTOM CONTAINER DIV 1 */
+.container-bottom-div-1 {
+	background-image: url("../images/testimonial_bg.jpg");
+	background-size: 600px 400px;
+    background-repeat: no-repeat;
+	background-color: #033048;		/* dark blue */
+	min-width: auto;				/* width of the page compare to the browser */
+    min-height: auto;
+    max-width: 600px;
+    max-height: 200px;
+    margin: 0;
+	border: 0;
+	padding: 20px 160px 30px 160px;
+	text-align: center;
+}
+
+.container-bottom-div-1-p1 {
+	font-style: italic;
+	font-weight: 300;				/* Light 300 Italic */
+	font-size: 18px;
+	font-family: ;
+}
+
+.container-bottom-div-1-p2 {
+	font-style: ;
+	font-weight: 600;				/* Semi-Bold 600 */
+	font-size: 18px;
+	font-family: ;
+}
+
+
+/* BOTTOM CONTAINER DIV 2 */
+.container-bottom-div-2 {
+	background-color: #f9e42e;		/* yellow */
+	min-width: auto;				/* width of the page compare to the browser */
+    min-height: auto;
+    max-width: 600px;
+    max-height: 100%;
+    margin: 0;
+	border: 0;
+	padding: 15px 0 15px 0;
+}
+
+/* BUTTON 'SIGN UP NOW!' */
+/* BUTTON 'SIGN UP NOW!' */
+.btn-sign-up-now {
+	background: #033048;
+  	background-image: -webkit-linear-gradient(top, #033048, #346178);
+  	background-image: -moz-linear-gradient(top, #033048, #346178);
+	background-image: -ms-linear-gradient(top, #033048, #346178);
+  	background-image: -o-linear-gradient(top, #033048, #346178);
+  	background-image: linear-gradient(to bottom, #033048, #346178);
+  	-webkit-border-radius: 5;
+  	-moz-border-radius: 5;
+  	border-radius: 5px;
+  	-webkit-box-shadow: 5px 5px 5px #000000;
+  	-moz-box-shadow: 5px 5px 5px #000000;
+  	box-shadow: 5px 5px 5px #000000;
+  	font-family: ;
+  	color: #ffffff;
+  	font-weight: 800;				/* Extra-Bold 800 */
+  	font-size: 12px;
+  	padding: 5px 20px 5px 20px;
+  	text-decoration: none;
+  	width: 120px;
+	height: 20px;
+}
+
+.btn-sign-up-now:hover {
+	background: #033048;
+	background-image: -webkit-linear-gradient(top, #033048, #f9e42e);
+	background-image: -moz-linear-gradient(top, #033048, #f9e42e);
+	background-image: -ms-linear-gradient(top, #033048, #f9e42e);
+	background-image: -o-linear-gradient(top, #033048, #f9e42e);
+	background-image: linear-gradient(to bottom, #033048, #f9e42e);
+	text-decoration: none;
+	font-weight: 800;				/* Extra-Bold 800 */
+  	font-size: 12px;
+}
+
+
+/* BOTTOM CONTAINER DIV 3 */
+.container-bottom-div-3 {
+	background-color: #121212;		/* almost black */
+	min-width: auto;				/* width of the page compare to the browser */
+    min-height: auto;
+    max-width: 600px;				
+    max-height: auto;
+    margin: 0;
+	border: 0;
+	padding: 20px 200px 10px 200px;
+}
+
+.container-bottom-div-3-1 {
+	text-align: center;
+	color: #f9e42e;					/* yellow */
+	font-style: ;
+	font-weight: 800;				/* Extra-Bold 800 */
+	font-size: 24px;
+	font-family: ;
+
+}
+
+.container-bottom-div-3-2 {
+	margin: auto;
+	text-align: center;
+	width: 50px;
+	height: 20px;
+}
+
+.twitter {
+	float: left;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+}
+
+.facebook {
+	float: right;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+}
+
+.disclaimer {
+	text-align: center;
+	color: white;
+	font-weight: 500;
+	font-size: 7px;
+}
+
+.copyright {
+	text-align: center;
+	color: white;
+	font-weight: 600;				/* Semi-Bold 600 */
+	font-size: 9px;
+}
+
