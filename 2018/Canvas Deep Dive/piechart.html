@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html> 
+	<body>
+		<center>
+			<canvas width="500" height="500" id="canvas" style="border:1px solid #000000;"></canvas>
+		</center>
+		<script> 
+			//initialize data set 
+			var data = [ 26, 60, 24, 30, 70, 40, 12 ]; 
+			 
+			var canvas = document.getElementById('canvas'); 
+			var c = canvas.getContext('2d'); 
+
+			//draw background 
+			c.fillStyle = "white"; 
+			c.fillRect(0,0,500,500); 
+
+			//a list of colors 
+			var colors = [ "yellow", "green", "teal", "orange", "blue", "red", "purple"]; 
+			 
+			//calculate total of all data 
+			var total = 0; 
+			for(var i=0; i<data.length; i++) { 
+			    total += data[i]; 
+			}
+
+			//draw pie data 
+			var prevAngle = 0; 
+			for(var i=0; i<data.length; i++) { 
+			    //fraction that this pieslice represents 
+			    var fraction = data[i]/total; 
+			    //calc starting angle 
+			    var angle = prevAngle + fraction*Math.PI*2; 
+			     
+			    //draw the pie slice - comment the code below out and using the //fill with a radial gradient below
+			    // c.fillStyle = colors[i]; 
+			    
+			    // ********************************************************* //
+				// Add Some Gradients to make the Piechart look a bit cooler //
+				// ********************************************************* //
+				// 
+				// But first, let's comment out the //draw piechart line of code above //
+				//draw the pie slice 
+	    		//c.fillStyle = colors[i];
+	    		//
+	 			// Replace with the following code below //
+			    //fill with a radial gradient 
+			    var grad = c.createRadialGradient( 250,250, 10, 250,250, 100); 
+			    grad.addColorStop(0,"white"); 
+			    grad.addColorStop(1,colors[i]); 
+			    c.fillStyle = grad;
+
+
+			    //create a path 
+			    c.beginPath(); 
+			    c.moveTo(250,250); 
+			    c.arc(250,250, 100, prevAngle, angle, false); 
+			    c.lineTo(250,250); 
+			     
+			    //fill it 
+			    c.fill(); 
+			     
+			    //stroke it 
+			    c.strokeStyle = "black"; 
+			    c.stroke(); 
+			     
+			    //update for next time through the loop 
+			    prevAngle = angle; 
+			}
+
+			//draw centered text 
+			c.fillStyle = "black"; 
+			c.font = "16pt sans-serif"; 
+			var text = "2018 PIECHART"; 
+			var metrics = c.measureText(text); 
+			c.fillText(text, 250-metrics.width/2, 400);
+		</script> 
+	</body> 
+</html> 
