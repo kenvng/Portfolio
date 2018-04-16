@@ -3,10 +3,6 @@
 	<head>
 		<title></title>
 	</head>
-	<body>
-	
-	</body>
-	</html> 
 	<body> 
 		<!-- 
 		// The canvas element is the actual on-screen rectangle where the content will be drawn. The width and height determine how big it will be. The Canvas // element is a block level DOM element similar to a DIV so you can style it or position it just like anything else in your page.
@@ -16,7 +12,9 @@
 			// Also noticed that we give our canvas an ID which we will refer back later in our script
 			// border width and color
 		 -->
-		<canvas width="500" height="500" id="canvas" style="border:1px solid #00AAFF;"></canvas> 
+		<center>
+			<canvas width="500" height="500" id="canvas" style="border:1px solid #00AAFF;"></canvas> 
+		</center>
 		<script> 
 			// The data variable in the script tag is a set of data points that we will draw in the bar chart.
 			var data = [ 16, 68, 20, 30, 54 ];  // data array
@@ -28,17 +26,12 @@
 			var canvas = document.getElementById('canvas'); 
 			 
 			//get a reference to the drawing context 
-			var c = canvas.getContext('2d'); 
-			
-			// Tryiing different bg colors 
-			//draw background
-			// c.fillStyle = "gray"; 
-			// c.fillRect(0,0,500,500); 
+			var c = canvas.getContext('2d'); 	 
 
-			//draw background 
+			// draw background //
 			// remember 0,0 = x,y is the coordination of the first point to start, upper left
 			// & 500,500 = x,y point end, lower right
-			c.fillStyle = "white";		// color bg white, instead of gray
+			c.fillStyle = "white";		// bg color
 			c.fillRect(0,0,500,500); 
 
 			// ******** // 
@@ -51,7 +44,6 @@
 			///////////////
 			// draw data //
 			///////////////
-			// feel free to uncomment one of this // draw data // group of codes out and comment the rest of the // draw data // group of codes  to see the differences... you would be amaze and also help you understand it better as well
 			// c.fillStyle = "blue"; 
 			// for(var i=0; i<data.length; i++) { 
 			//     var dp = data[i]; 
@@ -64,7 +56,6 @@
 			///////////////
 			// draw data //
 			///////////////
-			// feel free to uncomment one of this // draw data // group of codes out and comment the rest of the // draw data // group of codes  to see the differences... you would be amaze and also help you understand it better as well
 			// c.fillStyle = "blue"; 
 			// for(var i=0; i<data.length; i++) { 
 			//     var dp = data[i]; 
@@ -83,11 +74,9 @@
 			// 35px from left side,
 			// for i = 0, position starting out of each column, column = 50px; i < the data length = true then add 1 to i
 			// 100 is the width of column * 2, i * 100 = column and space of culumn to separate the columns
-			// 
 
-
-			// ****************** //
-			// Axis Lines and Labels
+			// ********************* //
+			// Axis Lines and Labels //
 
 			// Now add some axis lines by stroking a path starting at the top, down the left side, and across the bottom.
 			//draw axis lines 
