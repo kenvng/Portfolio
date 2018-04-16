@@ -11,6 +11,11 @@
 		<!-- 
 		// The canvas element is the actual on-screen rectangle where the content will be drawn. The width and height determine how big it will be. The Canvas // element is a block level DOM element similar to a DIV so you can style it or position it just like anything else in your page.
 		-->
+		<!-- 
+			// Set the canvas width and height
+			// Also noticed that we give our canvas an ID which we will refer back later in our script
+			// border width and color
+		 -->
 		<canvas width="500" height="500" id="canvas" style="border:1px solid #00AAFF;"></canvas> 
 		<script> 
 			// The data variable in the script tag is a set of data points that we will draw in the bar chart.
@@ -24,37 +29,52 @@
 			 
 			//get a reference to the drawing context 
 			var c = canvas.getContext('2d'); 
-			 
+			
+			// Tryiing different bg colors 
 			//draw background
 			// c.fillStyle = "gray"; 
 			// c.fillRect(0,0,500,500); 
 
 			//draw background 
+			// remember 0,0 = x,y is the coordination of the first point to start, upper left
+			// & 500,500 = x,y point end, lower right
 			c.fillStyle = "white";		// color bg white, instead of gray
 			c.fillRect(0,0,500,500); 
 
 			// ******** // 
 			// ADD DATA //
+			// ******** //
 			// Now you can draw some data. Do this by looping over the data array above. For each data point fill in a rectangle with the x determined by the array index and the height determined by the data value.
+			
+			// feel free to uncomment one of this // draw data // group of codes out and comment the rest of the // draw data // group of codes  to see the differences... you would be amaze and also help you understand it better as well
 
-			// draw data 
+			///////////////
+			// draw data //
+			///////////////
+			// feel free to uncomment one of this // draw data // group of codes out and comment the rest of the // draw data // group of codes  to see the differences... you would be amaze and also help you understand it better as well
 			// c.fillStyle = "blue"; 
 			// for(var i=0; i<data.length; i++) { 
 			//     var dp = data[i]; 
 			//     c.fillRect(25 + i*100, 30, 50, dp*5);  //bars pointing downward
 			// } 
 			 
-			// The first problem is that the bars are coming down from the top instead of the bottom. Remember that the y axis is 0 at the top and increases as you go down. To make the bars come up from the bottom change the y value to be calculated as the height of the canvas (500) minus the height of the bar (dp*5) and then subtract off an extra 30 to make it fit.
-			 
-			//draw data 
+			// The first problem is that the bars are coming down from the top instead of the bottom. 
+			// Remember that the y axis is 0 at the top and increases as you go down. To make the bars come up from the bottom change the y value to be calculated as the height of the canvas (500) minus the height of the bar (dp*5) and then subtract off an extra 30 to make it fit.
+			
+			///////////////
+			// draw data //
+			///////////////
+			// feel free to uncomment one of this // draw data // group of codes out and comment the rest of the // draw data // group of codes  to see the differences... you would be amaze and also help you understand it better as well
 			// c.fillStyle = "blue"; 
 			// for(var i=0; i<data.length; i++) { 
 			//     var dp = data[i]; 
 			//     c.fillRect(25 + i*100, 500-dp*5 - 30 , 50, dp*5);  //bars pointing upward
 			// }
 
+			///////////////
+			// draw data //
+			///////////////
 			// adjust the position of the bars slightly so they actually start at 0,0
-			//draw data 
 			c.fillStyle = "blue"; 
 			for(var i=0; i<data.length; i++) { 
 			    var dp = data[i]; 
